@@ -8,6 +8,8 @@ A tool for pen testers to audit the security of a CAS SSO server.
 # usage
 1. Identify target
 # fuzz strings
+## default strings
+Combinations that test common misconfigurations.
 ## portswigger URL validation bypass list
 https://portswigger.net/web-security/ssrf/url-validation-bypass-cheat-sheet
 # todo list
