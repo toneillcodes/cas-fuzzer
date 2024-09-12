@@ -7,11 +7,12 @@ A tool for pen testers to audit the security of a CAS SSO server.
 * Download and run script
 # usage
 1. Identify target
+2. Run the cas-fuzzer.py script
 # fuzz strings
 ## default strings
 Combinations that test common misconfigurations.
 ## portswigger URL validation bypass list
 https://portswigger.net/web-security/ssrf/url-validation-bypass-cheat-sheet
 # todo list
-* make a list
-* check it twice
+* update default test url list to include additional tests
+* read test urls from a file
