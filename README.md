@@ -8,6 +8,7 @@ A tool for pen testers to audit the security of a CAS SSO server.
 # usage
 1. Identify target
 2. Review and update test URL list<br />
+Default test URL list:
 ```
  test_urls = [
     'http://www.google.com',                    # Does the IdP accept a fake HTTP SP?
