@@ -27,11 +27,11 @@ def main():
 
     if(mode == "fuzz"):
         if(args.fuzz is None):
-            sys.exit('Fuzz string required for fuzz mode')
+            sys.exit('[ERROR] Fuzz string required for fuzz mode. Exiting.')
         else:
             fuzz_str = args.fuzz.replace("'", "")
     else:
-        sys.exit('Fuzz string required for fuzz mode')
+        sys.exit('[ERROR] Fuzz string required for fuzz mode. Exiting.')
 
     base_url = target_url + "/login?service="        
 
