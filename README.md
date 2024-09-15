@@ -46,6 +46,7 @@ Default test URL list:
 ## default strings
 Combinations that test common misconfigurations.
 ## portswigger URL validation bypass list
+https://portswigger.net/research/introducing-the-url-validation-bypass-cheat-sheet<br />
 https://portswigger.net/web-security/ssrf/url-validation-bypass-cheat-sheet
 # todo list
 * update default test url list to include additional tests
