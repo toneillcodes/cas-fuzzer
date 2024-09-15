@@ -22,9 +22,6 @@ def main():
     ##  Downgrade SSL level - required for some IdPs
     #requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = 'DEFAULT@SECLEVEL=1'
 
-    #target_hostname = input("[*] Enter CAS server hostname: ")
-    #target_port = input("[*] Enter CAS port: ")
-    #target_context = input("[*] Enter CAS context path: ")
     target_url = args.url.replace("'", "")
     mode = args.mode.replace("'", "")
 
@@ -35,11 +32,6 @@ def main():
             fuzz_str = args.fuzz.replace("'", "")
     else:
         sys.exit('Fuzz string required for fuzz mode')
-    #fuzz_str = input("[*] Enter fuzz string: ")
-    #if(target_port != "443"):
-    #    base_url = "https://" + target_hostname + ":" + target_port + "/" + target_context + "/login?service="
-    #else:
-    #    base_url = "https://" + target_hostname + "/" + target_context + "/login?service="
 
     base_url = target_url + "/login?service="        
 
